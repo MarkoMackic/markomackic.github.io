@@ -5,7 +5,7 @@ author: Marko Mackic
 categories: brainstorming
 ---
 
-A couple of days back, I had this idea, you know. I didn't try any of this btw. 
+A couple of days back, I had this idea, you know. I didn't try any of this btw. We're in the process.
 
 Before we dive in deeper, we need to define social network, it's a network of people 
 who collaborate, share, and do basic 1-many and 1-one comm. No likes, no heart emojis,
@@ -24,7 +24,7 @@ so a single unit may fail safely without danger that data will be lost.
 
 ### Social network with e2e encrption using `git`
 
-Now, imagine the repository layout like this:
+Now, imagine the repository layout like this ( might change ):
 
 ```
 repository
