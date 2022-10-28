@@ -33,7 +33,7 @@ repository
 | |-somwhere_else_hosted_repo.json (whatever else)
 |-common_hook_impls
 | |-git-hook-update
-| |-git-hook-pre-recieve 
+| |-git-hook-pre-receive 
 |-users
 | |-markomackic_(main_hosting_repo e.g somewhere_hosted_repo)
 | | |-uinfo.json -> contains user info like username, main_hosting_repo,  mail (optional, we like anonymous people with skill!!), and also contains gpg pubkey
@@ -81,7 +81,7 @@ Simple as that ! This will help us with the verifications. It's not strict, migh
 
 Simple push policy, no force-push allowed !
 
-#### Concept 4 - VERIFICATION and the beaty of git hooks.
+#### Concept 4 - VERIFICATION and the beauty of git hooks.
 
 Now we'll need to go a bit deeper. We'll need to write some code, as well as explain everything in the process.
 We will just make a proof of concept, we won't implement everything.
