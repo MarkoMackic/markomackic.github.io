@@ -237,7 +237,7 @@ the data we get from it.
 
 No conclusion so far, we're reseaching to see our options.
 
-Next step would be to try to implement ADD_PEER functionality.
+Next step would be to try to implement ADD_PEER functionality. And finally do some commit signing and verification. 
 
 I think turning this to a PoC is taking me more time because I'm trying to
 document the steps as I go through ( along with my research on all the
