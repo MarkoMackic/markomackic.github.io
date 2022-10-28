@@ -204,12 +204,12 @@ We'll execute
 cd test 
 git remote add a ../a # add a remote
 git remote -vv # check that a is in the remotes
-git commit -m "yo! juste testing" --allow-empty # commit something dumb
+git commit -m "yo! just testing" --allow-empty # commit something dumb
 git push --set-upstream a master:test # try to push our master to test branch of a, and see denial with a much of giberrish!!!
 ```
 
 
-#### Todays session conclusion 
+### Todays session conclusion 
 
 We'll have other parts of this that will be in more detail ( directory structure and commit messages may deffer, we're in the process)
 But I hope I gave you some insigths into my plan to conceptually make this. 
@@ -218,9 +218,14 @@ When second part is written, I'll update this post with a link..
 Good night, ya all!
 
 
-#### Resources 
+### Resources 
 
 * [https://unix.stackexchange.com/questions/481939/how-to-export-a-gpg-private-key-and-public-key-to-a-file](https://unix.stackexchange.com/questions/481939/how-to-export-a-gpg-private-key-and-public-key-to-a-file)
 * [https://stackoverflow.com/questions/54461319/gpg2-how-to-use-another-secret-and-public-keyring](https://stackoverflow.com/questions/54461319/gpg2-how-to-use-another-secret-and-public-keyring)
 * [https://github.com/AdaCore/git-hooks](https://github.com/AdaCore/git-hooks)
   * Nothing special learned/used from here, but the research led me to this url, so there it is.  
+
+### Chapters : 
+
+* [Chapter 1 - Me]({% post_url 2022-10-26-decentralized-git-social-network %})
+* [Chapter 2]({% post_url 2022-10-27-decentralized-git-social-network %})
