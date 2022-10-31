@@ -403,7 +403,7 @@ LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRR3pCQUFCQ2dBZEZpRUUrK2haZThURmo2d0I0
 
 # YO, YO , nice :)
 
-markomackic@m3o:~/Desktop/Workspace/peers/b$ git push --push-option SIGNATURE:$(cat .git/refs/heads/master | GNUPGHOME=../../gpg/b gpg --batch --pinentry-mode loopback --passphrase b_server -o - --armor --detach-sign 2>/dev/null | base64 -w 0) --set-upstream a master:peers/server_b
+markomackic@m3o:~/Desktop/Workspace/peers/b$ git push --push-option SIGNATURE:$(cat .git/refs/heads/master | tr -d "\n" | GNUPGHOME=../../gpg/b gpg --batch --pinentry-mode loopback --passphrase b_server -o - --armor --detach-sign 2>/dev/null | base64 -w 0) --set-upstream a master:peers/server_b
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 8 threads
