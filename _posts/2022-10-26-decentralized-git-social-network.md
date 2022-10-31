@@ -229,3 +229,4 @@ Good night, ya all!
 
 * [Chapter 1 - Me]({% post_url 2022-10-26-decentralized-git-social-network %})
 * [Chapter 2]({% post_url 2022-10-27-decentralized-git-social-network %})
+* [Chapter 3]({% post_url 2022-10-30-decentralized-git-social-network %})
