@@ -646,6 +646,8 @@ Branch 'master' set up to track remote branch 'peers/b_server' from 'a'.
 markomackic@m3o:~/Desktop/Workspace/peers/b$     
 ```
 
+Also notice that we're now pushing to `peers/b_server` cause pushing to `peers/server_b` would 
+fail the validations..
 
 ### Today's session progress
 
