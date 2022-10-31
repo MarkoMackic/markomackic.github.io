@@ -323,9 +323,8 @@ base64 -w 0 ../../gpg/test/keys_armored/b_pubkey.asc | xargs -I{} printf '{"serv
 
 Cool, we have generated server description, now we'll have to do a bit of git moddification,
 so it wouldn't ask us for credentials.. although we do have to do only single commit,
-but it will be useful to get this right away, becauseOk, let's have this changed pre-receive hook in the a repository ( I did a bit of work 
-in between without you watching every step, but nothing that you can't understand )
- signing. 
+but it will be useful to get this right away, because users posting and users sending messages 
+is pretty common operation and will also require signed commits. 
 
 ```bash
 git config --local --add gpg.program /home/markomackic/Desktop/Workspace/peers/b/.git/bin/gpg.sh
