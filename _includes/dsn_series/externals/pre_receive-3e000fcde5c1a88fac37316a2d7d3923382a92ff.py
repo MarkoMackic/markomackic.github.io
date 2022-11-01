@@ -17,9 +17,10 @@ def verify_push_signature(gpg_instance, signature_str, data_str):
     verified =  gpg_instance.verify_data(sign_file.name, data_str.encode('utf-8'))
     sign_file.close()
     return verified
+
 # DSN -> decentralized social network
 main_gpg_dir = os.environ.get('DSN_GPG_HOME', '../../../gpg/a/')
-main_gpg_passphrase = os.environ.get('DSN_GPG_HOME', 'a_server')
+main_gpg_passphrase = os.environ.get('DSN_GPG_PASSPHRASE', 'a_server')
 
 assert os.path.isdir(main_gpg_dir)
 

@@ -437,7 +437,7 @@ You can also notice I've changed the pre-recv hook a bit, I've been fiddling wit
 what it looks like now ( so `pre-receive.py` in `peers/a`):
 
 ```python    
-{% include dsn_series/externals/pre_receive-ffd925fe155f237aae969718c84f3bb0c1c2ffcb.py %}
+{% include dsn_series/externals/pre_receive-3e000fcde5c1a88fac37316a2d7d3923382a92ff.py %}
 ```
 
 And now finally ( of course we'll remove those prints, but we have a long way to go)
