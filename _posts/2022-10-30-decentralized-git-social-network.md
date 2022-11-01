@@ -501,6 +501,7 @@ what I planned ). This is gonna be awasome. Stay tuned !
 * [https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
   * We can sign individual commits ( very important for our usecase)
 * [https://gnupg.readthedocs.io/en/latest/](https://gnupg.readthedocs.io/en/latest/)
+* [https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit](https://stackoverflow.com/questions/424071/how-do-i-list-all-the-files-in-a-commit)
 
 ### Music for concentration
 
