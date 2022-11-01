@@ -666,8 +666,4 @@ what I planned ). This is gonna be awasome. Stay tuned !
 
 * [https://www.youtube.com/watch?v=vCo-FptSP3c](https://www.youtube.com/watch?v=vCo-FptSP3c)
 
-### Chapters
-
-* [Chapter 1]({% post_url 2022-10-26-decentralized-git-social-network %})
-* [Chapter 2]({% post_url 2022-10-27-decentralized-git-social-network %})
-* [Chapter 3 - Me]({% post_url 2022-10-30-decentralized-git-social-network %})
+{% include dsn_series/footer.md index=2 %}

@@ -225,8 +225,4 @@ Good night, ya all!
 * [https://github.com/AdaCore/git-hooks](https://github.com/AdaCore/git-hooks)
   * Nothing special learned/used from here, but the research led me to this url, so there it is.  
 
-### Chapters : 
-
-* [Chapter 1 - Me]({% post_url 2022-10-26-decentralized-git-social-network %})
-* [Chapter 2]({% post_url 2022-10-27-decentralized-git-social-network %})
-* [Chapter 3]({% post_url 2022-10-30-decentralized-git-social-network %})
+{% include dsn_series/footer.md index=0 %}

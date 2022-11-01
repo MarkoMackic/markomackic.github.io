@@ -253,9 +253,4 @@ at the end, and if not, at least some lessons will be learned.
 * [https://matthew-brett.github.io/curious-git/reading_git_objects.html](https://matthew-brett.github.io/curious-git/reading_git_objects.html)
 * [https://git.wiki.kernel.org/index.php/GitTips](https://git.wiki.kernel.org/index.php/GitTips)
 
-
-### Chapters : 
-
-* [Chapter 1]({% post_url 2022-10-26-decentralized-git-social-network %})
-* [Chapter 2 - Me]({% post_url 2022-10-27-decentralized-git-social-network %})
-* [Chapter 3]({% post_url 2022-10-30-decentralized-git-social-network %})
+{% include dsn_series/footer.md index=1 %}
